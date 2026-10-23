@@ -17,9 +17,9 @@
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {
-    "@pixel-brewery/mosaik-elements-foundation": "0.1.177",
-    "@pixel-brewery/mosaik-icons": "0.1.177",
-    "@pixel-brewery/mosaik-themes": "0.1.177",
+    "@pixel-brewery/mosaik-elements-foundation": "0.1.178",
+    "@pixel-brewery/mosaik-icons": "0.1.178",
+    "@pixel-brewery/mosaik-themes": "0.1.178",
     "reflect-metadata": "0.2.2"
   },
   "devDependencies": {
@@ -31,8 +31,5 @@
     "typescript-eslint": "8.72.0",
     "vite": "8.3.5",
     "vitest": "5.0.5"
-  },
-  "overrides": {
-    "@pixel-brewery/mosaik-elements": "0.1.171"
   }
 }
