@@ -17,9 +17,9 @@
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {
-    "@pixel-brewery/mosaik-elements-foundation": "0.1.179",
-    "@pixel-brewery/mosaik-icons": "0.1.179",
-    "@pixel-brewery/mosaik-themes": "0.1.179",
+    "@pixel-brewery/mosaik-elements-foundation": "0.1.180",
+    "@pixel-brewery/mosaik-icons": "0.1.180",
+    "@pixel-brewery/mosaik-themes": "0.1.180",
     "reflect-metadata": "0.2.2"
   },
   "devDependencies": {
