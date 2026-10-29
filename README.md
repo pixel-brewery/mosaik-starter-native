@@ -69,11 +69,9 @@ The repository's CI checks Mosaik release consistency and runs a clean `npm ci`,
 
 CI only verifies the application. It does not publish packages, create release tags or deploy a website.
 
-## Current published-package limitations
+## Bundle size
 
-Mosaik's supported root entry points retain a large core component/style graph even for this small example. Production entry bundles are currently approximately 14–16 MB before transfer compression. This starter preserves the supported APIs; it does not patch dependencies or suppress component registration. See [the package-boundary issue](https://github.com/RueDeRennes/mosaik/issues/964).
-
-Published dependency source maps currently refer to sources absent from the installed packages, so tests can emit third-party source-map warnings. They do not prevent the verification commands from passing. See [the source-map issue](https://github.com/RueDeRennes/mosaik/issues/963).
+This starter imports the Foundation root entry, which registers every Mosaik element: production bundles are about 14 MB of JavaScript before transfer compression. The framework starters import each component from its own entry and stay below 1 MB. A smaller native setup needs per-component Foundation entries, which [the tree-shaking epic](https://github.com/RueDeRennes/mosaik/issues/1140) tracks.
 
 ## License
 
