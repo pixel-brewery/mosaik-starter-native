@@ -6,6 +6,6 @@ export default tseslint.config(
   { ignores: ['dist/**', 'node_modules/**'] },
   js.configs.recommended,
   ...tseslint.configs.recommended,
-  { files: ['tools/**/*.mjs', '.github/scripts/**/*.mjs'], languageOptions: { globals: globals.node } },
+  { files: ['tools/**/*.mjs'], languageOptions: { globals: globals.node } },
   { files: ['src/**/*.ts'], languageOptions: { globals: globals.browser } },
 );
